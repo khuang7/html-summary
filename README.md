@@ -1,2 +1,7 @@
 # html_prac
-Brushing up on HTML, CSS and Javascript
+
+## Brushing up on HTML, CSS and Javascript
+
+## HTML ELEMENTS
+
+
