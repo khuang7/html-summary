@@ -1,25 +1,31 @@
 # html_prac
-These are basically some important notes from several sources about html/css. Just a brush up because I basically forgot about this stuff
+These are basically some important notes from several sources about html/css. Just a brush up because I basically forgot about this stuff. 
 
 **Brushing up on HTML, CSS and Javascript**
-
-1. HTML Basics (Recap)
-2. HTML HEAD
-3. Tables
-4. Forms
-5. CSS Intro
-6. CSS Basics
+THE AIM: Brushing up on HTML and CSS then working on a project via Javascript
 
 
-| Source        | Link          |
-| ------------- |:-------------:|
-| MDN           | [MDN/Learn](https://developer.mozilla.org/en-US/docs/Learn)|
+|TABLE OF CONTENTS|
+| ------------- |
+|1 HTML Basics|
+|2 HTML HEAD|
+|3 HTML Text Fundamentals|
+|4 Hyperlinks|
+|5 Advanced Text Formatting|
+|6 Document and Website Structure|
+|7 Debugging HTML|
+|8 HTML Tables|
+|9 HTML Forms|
 
+Important Sources to Consider
+- [ ] [MDN/Learn](https://developer.mozilla.org/en-US/docs/Learn)
+- [ ] [ilovecoding] (https://ilovecoding.org/courses/htmlcss)
+- [ ] [codeacademy] (https://www.codecademy.com/)
 
 ## 1 HTML Basics
-https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
-#### NESTING ELEMENTS IS POSSIBLE (by putting <strong></strong> inside the tag in the word very)
-<p> My cat is <strong>very</strong> grumpy. </p>
+
+#### Nesting
+<element> My cat is <element1>very</element1> grumpy. </element>
 
 #### Block-level elements AND Inline elements
 Block line elements form a visible block on the page. Appears on a new line before or after
@@ -85,12 +91,50 @@ A simple navigation on each page is useful to give the impression that user is i
 Not that important for me right now
 
 ## 5 Advanced Text Formatting
-There are many types of 
+There are many types of elements that html has. The following are some useful ones, but when deciding what to use we should just refer to the documentation. We don't really have to memorise all these, just have a vague idea of what the possibilities are
+* Description Lists
+* Quotations - Outline and Inline
+* Citations
+* Abbreviations
+* Address (contact details)
+* Subscript and superscript
+* Representing code 
+* Times and Dates
 
 ## 6 Document and Website Structure
+There are several components that are similar in most websites
+* Header
+* Nav Bar
+* Main Content
+* Side Bar
+* Footer
 
 ## 7 Debugging HTML
+TO DO LATER
 
 ## 8 HTML Tables
+Only use tables for storing structured set of data. The article heavily emphasises not to use it for structuring a webpage which is strangely common back in the day. Generally CSS is needed to style the tables as well.
+An example of html table is in table.html.
+There are many ways to style tables as shown in the link
+
+#### Advanced tables
+Extra info on manipulating tables. Refer to link if needed
 
 ## 9 HTML Forms
+An interaction between user and website application. Allows user to give data to the website. 
+Usually comes in the form of textfields, boxes, buttons, checkboxes...
+Most of the time the data collected by the form is sent to a web server.
+
+```html
+<form action="/my-handling-form-page" method="post">
+</form>
+```
+The action attribute defines the location where the form's data should be sent
+The method attribute defines which HTTP method to send the data with (GET or POST)
+
+#### Sending form data to web server
+One of the trickiest parts is to handle form data on the server side. 
+From before we see that we need action and method. But we also need a NAME ATTRIBUTE which helps the server side 
+
+#### Form Structure
+Up to here -> https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form
