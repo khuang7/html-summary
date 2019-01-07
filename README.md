@@ -48,4 +48,16 @@ THis is a summary of paragraphs and headings
 p and h1,h2,h3...
 Basically these are subtitles
 
+#### Semantics
+Important to use the correct elements to maintain meaning (heading is the thing that means top level of your page) and by default the browser gives it a larger font). CONSISTENCY is key
+
+#### Lists
+The tag ul, and li is used for list. We can have
+Ordered lists, nested lists...
+
+#### Emphasis and Importance
+em tag is used to stress certain words by putting ITALICS
+strong is used to bold text
+
+HTML5 now uses b, i and u tags. Which sort of have a semantic meaning behind each one. Specifics are in the link. 
 
