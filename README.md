@@ -24,8 +24,24 @@ Important Sources to Consider
 
 ## 1 HTML Basics
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+  </body>
+</html>
+```
+
+
 #### Nesting
-<element> My cat is <element1>very</element1> grumpy. </element>
+```html
+<p>My cat is <strong>very</strong> grumpy.</p>
+```
 
 #### Block-level elements AND Inline elements
 Block line elements form a visible block on the page. Appears on a new line before or after
