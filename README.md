@@ -61,3 +61,6 @@ strong is used to bold text
 
 HTML5 now uses b, i and u tags. Which sort of have a semantic meaning behind each one. Specifics are in the link. 
 
+## 4 Hyperlinks
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks
+As mentioned before ahref is used to make a hyperlink
