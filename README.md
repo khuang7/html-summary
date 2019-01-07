@@ -18,14 +18,17 @@ These are basically some important notes from several sources about html/css. Ju
 
 ## 1 HTML Basics ##
 
-#### We can nest elements in each other (by putting <strong></strong> inside the tag in the word very)
+#### NESTING ELEMENTS IS POSSIBLE (by putting <strong></strong> inside the tag in the word very)
 <p> My cat is <strong>very</strong> grumpy. </p>
 
-
-#### Two important categories: Block-level elements AND Inline elements
-
+#### Block-level elements AND Inline elements
 Block line elements form a visible block on the page. Appears on a new line before or after
 Inline elements are those that are contained within block-level elements. Surround on small parts of the document contents
 [ REFER TO CODE ]
 
-#### 
+#### Empty Elements
+Some elements follow the open then close tags, but some only need one tag
+such as <img> tag
+
+
+
