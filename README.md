@@ -64,3 +64,33 @@ HTML5 now uses b, i and u tags. Which sort of have a semantic meaning behind eac
 ## 4 Hyperlinks
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks
 As mentioned before ahref is used to make a hyperlink
+We can wrap a link inside an <a> tag and give it a href attribute
+  
+You can also turn BLOCK LEVEL elements into a link. And put the image between <a> tags
+
+#### Best practices for links
+A summary of good practices
+- Make link accessible to all readers
+- Don't repeat URLs
+- Keep labels short
+- Omit redundant 'click here'
+- Use relative links over absolute links
+- Use the download attribute when linking to a download
+
+#### Navigation Menu
+[ REFER TO CODE ] 
+A simple navigation on each page is useful to give the impression that user is in the same place
+
+#### Email Link
+Not that important for me right now
+
+## 5 Advanced Text Formatting
+There are many types of 
+
+## 6 Document and Website Structure
+
+## 7 Debugging HTML
+
+## 8 HTML Tables
+
+## 9 HTML Forms
